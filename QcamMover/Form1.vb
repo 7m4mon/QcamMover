@@ -8,13 +8,13 @@
     End Sub
 
     Private Sub Button12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button12.Click
-        'up
-        QcamMover(0, -6)
+        'changed to down (driver version 12.0 later)
+        QcamMover(0, 6)
     End Sub
 
     Private Sub Button13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button13.Click
-        'down
-        QcamMover(0, 6)
+        'changed to up (driver version 12.0 later)
+        QcamMover(0, -6)
     End Sub
 
     Private Sub Button14_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button14.Click
